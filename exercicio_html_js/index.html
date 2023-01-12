@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"/>
+    <title>Projeto 02</title>
+  </head>
+  <body>
+    <h1 class="container mt-5 mb-5">Projeto 2</h1>
+    <div class="container">
+      <form id="form-exercicio">
+        <label for="a" class="form-label">Valor A</label>
+        <input type="number" id="a" placeholder="Insira o valor A" class="form-control" required/>
+        <label for="b" class="form-label">Valor B</label>
+        <input type="number" id="b" placeholder="Insira o valor A" class="form-control" required/>
+        <button id="button" type="submit" class="btn btn-outline-dark mt-3 mb-3" onclick=validar()> Validar</button>
+      </form>
+      <span class="alert alert-light" id="result"></span>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
