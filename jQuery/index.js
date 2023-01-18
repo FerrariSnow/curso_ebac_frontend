@@ -9,7 +9,7 @@ $(document).ready(function () {
     $("#tarefa").val("");
     $("#tarefa").focus();
 
-    $(".teste").on("click", function () {
+    $(".li").on("click", function () {
       $(this).toggleClass("text-decoration-line-through");
     });
   });
