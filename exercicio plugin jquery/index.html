@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css
+    "
+    />
+    <title>Exercicio Plugin jQuery</title>
+  </head>
+  <body>
+    <div class="mx-auto mt-5" style="width: 40vw">
+      <h1>Exercicio Plugin jQuery</h1>
+      <form>
+        <label for="nome" class="form-label d-block mt-1"
+          >Seu nome completo:</label
+        >
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          class="form-control"
+          placeholder="Insira seu nome completo."
+        />
+        <label for="email" class="form-label d-block mt-1">Seu e-mail:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="form-control"
+          placeholder="Insira seu e-mail"
+        />
+        <label for="phone" class="form-label d-block mt-1">Seu telefone:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          class="form-control"
+          required
+        />
+        <label for="cpf" class="form-label d-block mt-1">Seu CPF:</label>
+        <input type="tel" id="cpf" name="cpf" class="form-control" required />
+        <label for="endereco" class="form-label d-block mt-1"
+          >Seu Endereço:</label
+        >
+        <input
+          type="text"
+          id="endereco"
+          name="endereco"
+          class="form-control"
+          placeholder="Insira seu endereço"
+        />
+        <label for="cep" class="form-label d-block mt-1">Seu CEP:</label>
+        <input type="tel" id="cep" name="cep" class="form-control" />
+        <button type="submit" class="btn btn-outline-primary mt-3 d-block">
+          Enviar
+        </button>
+      </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.validate.js"></script>
+    <script type="text/javascript" src="./js/messages_pt_BR.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+  </body>
+</html>
