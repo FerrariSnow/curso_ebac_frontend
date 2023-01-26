@@ -9,7 +9,7 @@ $(document).ready(function () {
     $("#tarefa").val("");
     $("#tarefa").focus();
 
-    $(".li").on("click", function () {
+    $(novaTarefa).on("click", function () {
       $(this).toggleClass("text-decoration-line-through");
     });
   });
